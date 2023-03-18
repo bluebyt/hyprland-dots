@@ -12,6 +12,7 @@ Details
 - [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 - [Fish shell](https://github.com/fish-shell/fish-shell)
 - [Startship prompt](https://starship.rs/)
+- [Neofetch](https://github.com/dylanaraps/neofetch)
 
 Install steps
 
