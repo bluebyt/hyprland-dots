@@ -6,8 +6,8 @@ Warning: This installation guide is for my future self. Some steps might not be 
 - [Video](https://www.youtube.com/watch?v=ibkRV8aJwUo)
 
 ## Details
-
-- [Wayfire is a wayland compositor based on wlroots](https://github.com/WayfireWM/wayfire)
+- Wayfire is a wayland compositor[Wayfire](https://pages.github.com/)
+- [Wayfire is a wayland compositor](https://github.com/WayfireWM/wayfire)
 - [Waybar](https://github.com/Alexays/Waybar)
 - [Mako notification](https://github.com/emersion/mako)
 - [Conky Mimosa theme](https://github.com/closebox73/Leonis)
