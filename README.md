@@ -7,9 +7,8 @@ Warning: This installation guide is for my future self. Some steps might not be 
 
 ## Details
 - [Wayfire](https://pages.github.com/) is a wayland compositor
-- [Wayfire is a wayland compositor](https://github.com/WayfireWM/wayfire)
 - [Waybar](https://github.com/Alexays/Waybar)
-- [Mako notification](https://github.com/emersion/mako)
+- [Mako](https://github.com/emersion/mako) notification
 - [Conky Mimosa theme](https://github.com/closebox73/Leonis)
 - [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 - [Fish shell](https://github.com/fish-shell/fish-shell)
