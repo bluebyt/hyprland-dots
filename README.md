@@ -13,7 +13,6 @@ Warning: This installation guide is for my future self. Some steps might not be 
 
 Install steps
 
-- [Install Archlinux](https://www.youtube.com/watch?v=BgesUogmHec)
-- Install Gnome
-- Install wayfire.
+- [Install Archlinux Gnome desktop](https://www.youtube.com/watch?v=3ndsDxlkTrw)
+- [Install wayfire](https://github.com/WayfireWM/wf-install)
 
