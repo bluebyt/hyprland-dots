@@ -8,12 +8,12 @@ Warning: This installation guide is for my future self. Some steps might not be 
 - [Mako](https://github.com/emersion/mako)
 - [Conky Mimosa theme](https://github.com/closebox73/Leonis)
 - [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
-- [Fish shell] (https://github.com/fish-shell/fish-shell)
-- [Startship prompt] (https://starship.rs/)
+- [Fish shell](https://github.com/fish-shell/fish-shell)
+- [Startship prompt](https://starship.rs/)
 
 Install steps
 
-- Install Archlinux (https://www.youtube.com/watch?v=BgesUogmHec)
-- Istall Gnome
+- Install Archlinux(https://www.youtube.com/watch?v=BgesUogmHec)
+- Install Gnome
 - Install wayfire.
 
