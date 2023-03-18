@@ -6,5 +6,5 @@ Warning: This installation guide is for my future self. Some steps might not be 
 - [Wayfire](https://github.com/WayfireWM/wayfire)
 - [Waybar](https://github.com/Alexays/Waybar)
 - [Mako](https://github.com/emersion/mako)
-- [Conky](https://github.com/closebox73/Leonis)
+- [Conky Mimosa theme](https://github.com/closebox73/Leonis)
 - [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
