@@ -5,7 +5,7 @@ Warning: This installation guide is for my future self. Some steps might not be 
 
 - [Video](https://www.youtube.com/watch?v=ibkRV8aJwUo)
 
-Details
+## Details
 
 - [Wayfire](https://github.com/WayfireWM/wayfire)
 - [Waybar](https://github.com/Alexays/Waybar)
@@ -16,7 +16,7 @@ Details
 - [Startship prompt](https://starship.rs/)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 
-Install steps
+## Install steps
 
 - [Install Archlinux Gnome desktop](https://www.youtube.com/watch?v=3ndsDxlkTrw)
 - [Install wayfire](https://github.com/WayfireWM/wf-install)
