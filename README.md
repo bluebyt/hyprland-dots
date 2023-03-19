@@ -28,3 +28,7 @@ Warning: This installation guide is for my future self. Some steps might not be 
 ## Running
 - Log out and select wayfire in GNOME Display Manager (GDM) then log back in.
 
+
+
+https://user-images.githubusercontent.com/18442224/226214481-a5582541-5143-45f0-98f7-b3a7eb3f18b4.mp4
+
