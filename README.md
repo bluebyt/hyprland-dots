@@ -1,8 +1,7 @@
 # Wayfire desktop!
 Warning: This installation guide is for my future self. Some steps might not be completed.
 
-![screenshot-2023-03-18-07:58:15](https://user-images.githubusercontent.com/18442224/226104592-d15b8b72-3a5e-4306-950b-4b5421dcee3f.png)
-
+![Screenshot](https://user-images.githubusercontent.com/18442224/226177419-9c9302eb-cfec-4b2e-9f80-e43ccc057919.png)
 - [Video](https://www.youtube.com/watch?v=ibkRV8aJwUo)
 
 ## Details
@@ -19,4 +18,3 @@ Warning: This installation guide is for my future self. Some steps might not be 
 
 - [Install Archlinux Gnome desktop](https://www.youtube.com/watch?v=3ndsDxlkTrw)
 - [Install wayfire](https://github.com/WayfireWM/wf-install)
-
