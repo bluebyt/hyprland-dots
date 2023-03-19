@@ -20,7 +20,7 @@ Warning: This installation guide is for my future self. Some steps might not be 
 - [Install wayfire](https://github.com/WayfireWM/wf-install)
 
 ## Configuration
-- Copy wayfire.ini to ~/.config/wayfire.ini.
+- Copy wayfire.ini and wf-shell.ini to ~/.config
 
 
 ## Running
