@@ -19,5 +19,9 @@ Warning: This installation guide is for my future self. Some steps might not be 
 - [Install Archlinux Gnome desktop](https://www.youtube.com/watch?v=3ndsDxlkTrw)
 - [Install wayfire](https://github.com/WayfireWM/wf-install)
 
+## Configuration
+- Copy wayfire.ini to ~/.config/wayfire.ini.
+
+
 ## Running
 - Log out and select wayfire in GNOME Display Manager (GDM) then log back in.
