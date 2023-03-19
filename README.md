@@ -3,7 +3,6 @@ Warning: This installation guide is for my future self. Some steps might not be 
 
 ![Screenshot](https://user-images.githubusercontent.com/18442224/226177419-9c9302eb-cfec-4b2e-9f80-e43ccc057919.png)
 
-https://user-images.githubusercontent.com/18442224/226214283-a9e0ffb0-c60c-461f-b569-c96183fc86fa.mp4
 
 - [Video on Youtube](https://www.youtube.com/watch?v=ibkRV8aJwUo)
 
