@@ -7,7 +7,7 @@ Warning: This installation guide is for my future self. Some steps might not be 
 - [Video on Youtube](https://www.youtube.com/watch?v=ibkRV8aJwUo)
 
 ## Details
-- [Wayfire](https://pages.github.com/) is a wayland compositor
+- [Hyprland](https://hyprland.org/) is a wayland compositor
 - [Waybar](https://github.com/Alexays/Waybar)
 - [Mako](https://github.com/emersion/mako) notification
 - [Conky Mimosa theme](https://github.com/closebox73/Leonis)
@@ -19,12 +19,12 @@ Warning: This installation guide is for my future self. Some steps might not be 
 ## Install steps
 
 - [Install Archlinux Gnome desktop](https://www.youtube.com/watch?v=3ndsDxlkTrw)
-- [Install wayfire](https://github.com/WayfireWM/wf-install)
+- [Install hyprland](https://hyprland.org/)
 
 ## Configuration
-- Copy wayfire.ini and wf-shell.ini to ~/.config
+- Edit /home/bluebyt/.config/hypr/hyprland.conf
 
 
 ## Running
-- Log out and select wayfire in GNOME Display Manager (GDM) then log back in.
+- Log out and select Hyprland in GNOME Display Manager (GDM) then log back in.
 
