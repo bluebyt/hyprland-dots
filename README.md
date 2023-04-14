@@ -1,4 +1,4 @@
-# Wayfire desktop!
+# Hyprland desktop!
 Warning: This installation guide is for my future self. Some steps might not be completed.
 
 ![Screenshot](https://user-images.githubusercontent.com/18442224/226177419-9c9302eb-cfec-4b2e-9f80-e43ccc057919.png)
