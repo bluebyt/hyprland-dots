@@ -1,9 +1,8 @@
 # Hyprland desktop!
 Warning: This installation guide is for my future self. Some steps might not be completed.
 
-![test2](https://user-images.githubusercontent.com/18442224/232166769-999a5196-83a7-46aa-a615-8d6319386132.png)
+![test3](https://user-images.githubusercontent.com/18442224/232167176-dcca654f-3286-4bf5-b783-8bf984b119c7.png)
 
-- [Video on Youtube](https://www.youtube.com/watch?v=ibkRV8aJwUo)
 
 ## Details
 - [Hyprland](https://hyprland.org/) is a wayland compositor
