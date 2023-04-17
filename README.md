@@ -1,7 +1,7 @@
 # Hyprland desktop!
 Warning: This installation guide is for my future self. Some steps might not be completed.
 
-![test3](https://user-images.githubusercontent.com/18442224/232167176-dcca654f-3286-4bf5-b783-8bf984b119c7.png)
+![screenshot](https://user-images.githubusercontent.com/18442224/232352924-aa1789d7-cb09-49aa-958b-92a021f3daf0.png)
 
 
 ## Details
