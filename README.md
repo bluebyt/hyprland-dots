@@ -6,6 +6,7 @@ Warning: This installation guide is for my future self. Some steps might not be 
 
 ## Details
 - [Hyprland](https://hyprland.org/) is a wayland compositor
+- [gBar](https://github.com/scorpion-26/gBar)
 - [Waybar](https://github.com/Alexays/Waybar)
 - [Mako](https://github.com/emersion/mako) notification
 - [Conky Mimosa theme](https://github.com/closebox73/Leonis)
