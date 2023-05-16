@@ -20,8 +20,10 @@ LockCommand: ~/.config/scripts/sys.sh lock
 # The command to execute on exit
 ExitCommand: killall Hyprland
 
-# The folder, where the battery sensors reside
-#BatteryFolder: /sys/class/power_supply/BAT1
+#Check Updates: false
+#CheckPackagesCommand: checkupdates | wc -l
+#CheckUpdateInterval: 300
+#CheckPackagesCommand: pac="$(checkupdates)"; if [ $? -eq 127 ] ; then exit 127; fi; echo -n "$pac" | wc -l
 
 # Overrides the icon of the nth (in this case the first) workspace
 # WorkspaceSymbol-1: 
@@ -72,6 +74,9 @@ NetworkAdapter: enp4s0
 
 # Disables the network widget when set to false
 NetworkWidget: true
+
+# Enable tray
+EnableSNI: false
 
 # These set the range for the network widget. The widget changes colors at six intervals:
 #    - Below Min...Bytes ("under")

@@ -3,15 +3,13 @@
   font-family: "CaskaydiaCove Nerd Font";
 }
 
+.popup {
+  color: #50fa7b;
+}
+
 .bar, tooltip {
   background-color: #282a36;
-  border-radius: 10px;
-  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7); */
-  /* box-shadow: 1px 1px 3px 1px #151515; */
-  margin-top: 8px;
-  margin-bottom: 4px;
-  margin-right: 8px;
-  margin-left: 8px;
+  border-radius: 16px;
 }
 
 .right {
@@ -20,50 +18,28 @@
 }
 
 .time-text {
-  font-size: 20px;
-  color: #89b4fa;
-}
-
-.package-outofdate {
-    font-size: 24px;
-    margin-right: -5px;
-    margin-left: -5px;
-    color: #50fa7b;
+  font-size: 16px;
 }
 
 .reboot-button {
   font-size: 28px;
   margin-right: 6px;
-  color: #89b4fa;
-}
-
-.reboot-button:hover {
-  color: #fab387;
+  color: #6272a4;
 }
 
 .sleep-button {
   font-size: 28px;
-  color: #89b4fa;
-}
-
-.sleep-button:hover {
-  font-size: 28px;
-  color: #fab387;
+  color: #6272a4;
 }
 
 .exit-button {
   font-size: 28px;
-  color: #89b4fa;
-}
-
-.exit-button:hover {
-  color: #fab387;
-  font-size: 24px;
+  color: #6272a4;
 }
 
 .power-button {
   font-size: 28px;
-  color: #f38ba8;
+  color: #ff5555;
 }
 
 .power-box-expand {
@@ -127,6 +103,13 @@ highlight {
 }
 .mic-volume highlight {
   background-color: #bd93f9;
+}
+
+.package-outofdate {
+  font-size: 24px;
+  margin-right: -5px;
+  margin-left: -5px;
+  color: #50fa7b;
 }
 
 .bt-num {
@@ -278,31 +261,27 @@ highlight {
 
 .ws-dead {
   color: #44475a;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .ws-inactive {
   color: #6272a4;
-  font-size: 24px;
+  font-size: 16px;
 }
 
-.ws-inactive:hover {
-  color: #8be9fd;
-  font-size: 24px;
-}
 .ws-visible {
   color: #8be9fd;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .ws-current {
-  color: #d08770;
-  font-size: 24px;
+  color: #f1fa8c;
+  font-size: 16px;
 }
 
 .ws-active {
   color: #50fa7b;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 @keyframes connectanim {
@@ -347,7 +326,7 @@ highlight {
   margin-right: 8px;
   margin-left: 8px;
   font-size: 24px;
-  color: #5e81ac;
+  color: #1793D1;
 }
 
 .bt-body-box {
@@ -382,7 +361,7 @@ highlight {
 }
 
 .bt-close {
-  color: #bf616a;
+  color: #ff5555;
   background-color: #44475a;
   border-radius: 16px;
   padding: 0px 8px 0px 7px;
@@ -390,7 +369,7 @@ highlight {
 }
 
 .bt-scan {
-  color: #a3be8c;
+  color: #f1fa8c;
   background-color: #44475a;
   border-radius: 16px;
   padding: 2px 11px 0px 7px;
@@ -411,3 +390,4 @@ highlight {
 }
 
 /*# sourceMappingURL=style.css.map */
+

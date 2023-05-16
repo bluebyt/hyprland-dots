@@ -4,7 +4,7 @@
 }
 
 .bar, tooltip {
-  background-color: #282a36;
+  background-color: #2e3440;
   border-radius: 10px;
   /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7); */
   /* box-shadow: 1px 1px 3px 1px #151515; */
@@ -21,49 +21,49 @@
 
 .time-text {
   font-size: 20px;
-  color: #89b4fa;
+  color: #6272a4;
 }
 
 .package-outofdate {
     font-size: 24px;
     margin-right: -5px;
     margin-left: -5px;
-    color: #50fa7b;
+    color: #a3be8c;
 }
 
 .reboot-button {
   font-size: 28px;
   margin-right: 6px;
-  color: #89b4fa;
+  color: #6272a4;
 }
 
 .reboot-button:hover {
-  color: #fab387;
+  color: #ffb86c;
 }
 
 .sleep-button {
   font-size: 28px;
-  color: #89b4fa;
+  color: #6272a4;
 }
 
 .sleep-button:hover {
   font-size: 28px;
-  color: #fab387;
+  color: #ffb86c;
 }
 
 .exit-button {
   font-size: 28px;
-  color: #89b4fa;
+  color: #6272a4;
 }
 
 .exit-button:hover {
-  color: #fab387;
+  color: #ffb86c;
   font-size: 24px;
 }
 
 .power-button {
   font-size: 28px;
-  color: #f38ba8;
+  color: #bf616a;
 }
 
 .power-box-expand {
@@ -131,25 +131,25 @@ highlight {
 
 .bt-num {
   font-size: 16px;
-  color: #1793D1;
+  color: #5e81ac;
   margin-left: -6px;
 }
 
 .bt-label-on {
   font-size: 20px;
-  color: #1793D1;
+  color: #5e81ac;
   margin-right: 6px;
 }
 
 .bt-label-off {
   font-size: 24px;
-  color: #1793D1;
+  color: #5e81ac;
   margin-right: 6px;
 }
 
 .bt-label-connected {
   font-size: 28px;
-  color: #1793D1;
+  color: #5e81ac;
   margin-right: 6px;
 }
 
@@ -160,7 +160,7 @@ highlight {
 }
 
 .disk-data-text {
-  color: #bd93f9;
+  color: #b48ead;
   margin-right: 6px;
   font-size: 16px;
 }
@@ -177,12 +177,12 @@ highlight {
 }
 
 .ram-util-progress {
-  color: #f1fa8c;
+  color: #ebcb8b;
   background-color: #44475a;
 }
 
 .ram-data-text {
-  color: #f1fa8c;
+  color: #ebcb8b;
   margin-right: 6px;
   font-size: 16px;
 }
@@ -199,13 +199,13 @@ highlight {
 }
 
 .cpu-util-progress {
-  color: #50fa7b;
+  color: #a3be8c;
   background-color: #44475a;
   font-size: 16px;
 }
 
 .cpu-data-text {
-  color: #50fa7b;
+  color: #a3be8c;
   margin-right: 6px;
   font-size: 16px;
 }
@@ -223,7 +223,7 @@ highlight {
 }
 
 .network-data-text {
-  color: #50fa7b;
+  color: #a3be8c;
   margin-right: 6px;
   font-size: 16px;
 }
@@ -233,11 +233,11 @@ highlight {
 }
 
 .network-up-low {
-  color: #50fa7b;
+  color: #a3be8c;
 }
 
 .network-up-mid-low {
-  color: #f1fa8c;
+  color: #bf616a;
 }
 
 .network-up-mid-high {
@@ -257,7 +257,7 @@ highlight {
 }
 
 .network-down-low {
-  color: #50fa7b;
+  color: #a3be8c;
 }
 
 .network-down-mid-low {
@@ -287,7 +287,7 @@ highlight {
 }
 
 .ws-inactive:hover {
-  color: #8be9fd;
+  color: #81a1c1;
   font-size: 24px;
 }
 .ws-visible {
@@ -301,7 +301,7 @@ highlight {
 }
 
 .ws-active {
-  color: #50fa7b;
+  color: #a3be8c;
   font-size: 24px;
 }
 
