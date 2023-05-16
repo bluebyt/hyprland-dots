@@ -1,7 +1,10 @@
 # Hyprland desktop!
 Warning: This installation guide is for my future self. Some steps might not be completed.
-
+Nord screenshot!
 ![Screenshot21avril2023](https://user-images.githubusercontent.com/18442224/233592124-38f2bfa1-1e1e-4e5c-a2dc-2e0b5d822613.png)
+
+Dracula screenshot!
+![dracula_now2](https://github.com/bluebyt/hyprland-dots/assets/18442224/0534e575-d3fb-477a-8d28-d1654f26b3f7)
 
 
 ## Details
