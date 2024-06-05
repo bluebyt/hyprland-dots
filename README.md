@@ -10,8 +10,7 @@ Dracula screenshot!
 
 ## Details
 - [Hyprland](https://hyprland.org/) is a wayland compositor
-- [gBar](https://github.com/scorpion-26/gBar)
-- [Waybar](https://github.com/Alexays/Waybar)
+- [Ironbar](https://github.com/JakeStanger/ironbar)
 - [Mako](https://github.com/emersion/mako) notification
 - [Conky Mimosa theme](https://github.com/closebox73/Leonis)
 - [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
