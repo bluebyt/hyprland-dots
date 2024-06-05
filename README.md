@@ -10,13 +10,21 @@ Dracula screenshot!
 
 ## Details
 - [Hyprland](https://hyprland.org/) is a wayland compositor
-- [Ironbar](https://github.com/JakeStanger/ironbar)
+- [Ironbar](https://github.com/JakeStanger/ironbar) A customisable and feature-rich GTK bar for wlroots compositors, written in Rust.
 - [Mako](https://github.com/emersion/mako) notification
-- [Conky Mimosa theme](https://github.com/closebox73/Leonis)
-- [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
+- [eww](https://github.com/elkowar/eww) Widget on the left
+- [Tokyonight-Dark](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) command: ./install.sh -d ~/.local/share/themes -c dark -l --tweaks black
 - [Fish shell](https://github.com/fish-shell/fish-shell)
 - [Startship prompt](https://starship.rs/)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
+- [Catnip](https://github.com/iinsertNameHere/catnip) A minimalistic and fast system fetch
+- [SwayOSD](https://github.com/ErikReider/SwayOSD) A OSD window for common actions like volume and capslock.
+- [Lite XL](https://lite-xl.com/) A lightweight, simple, fast, feature-filled, and extremely extensible text editor
+- [Ulauncher](https://ulauncher.io/) Application launcher for Linux
+- [Xava](https://github.com/nikp123/xava#programming-opengl-shaders) Audio Visualizer
+- [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) Terminal Music player
+- Caskaydiacove nerd font 
+
 
 ## Install steps
 
