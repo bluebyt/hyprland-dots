@@ -14,9 +14,8 @@ Dracula screenshot!
 - [Mako](https://github.com/emersion/mako) notification
 - [eww](https://github.com/elkowar/eww) Widget on the left
 - [Tokyonight-Dark](https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme) command: ./install.sh -d ~/.local/share/themes -c dark -l --tweaks black
-- [Fish shell](https://github.com/fish-shell/fish-shell)
-- [Startship prompt](https://starship.rs/)
-- [Neofetch](https://github.com/dylanaraps/neofetch)
+- [Fish shell](https://github.com/fish-shell/fish-shell) Command line shell
+- [Startship prompt](https://starship.rs/) Customizable prompt
 - [Catnip](https://github.com/iinsertNameHere/catnip) A minimalistic and fast system fetch
 - [SwayOSD](https://github.com/ErikReider/SwayOSD) A OSD window for common actions like volume and capslock.
 - [Lite XL](https://lite-xl.com/) A lightweight, simple, fast, feature-filled, and extremely extensible text editor
