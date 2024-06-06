@@ -2,7 +2,8 @@
 Warning: This installation guide is for my future self. Some steps might not be completed.
 
 Tokyonight-Dark!
-![ok](https://github.com/bluebyt/hyprland-dots/assets/18442224/6e8311b8-8a0c-46b9-9307-b7ecf684df5c)
+![screenshot_hypr002](https://github.com/bluebyt/hyprland-dots/assets/18442224/511017d9-3a5a-4916-bb02-0034c3ec4821)
+
 
 ## Details
 - [Hyprland](https://hyprland.org/) is a wayland compositor
