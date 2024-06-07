@@ -1,0 +1,80 @@
+* {
+    background-image: none;
+    font-size: 30px;
+}
+
+window {
+    background-color: rgba(12, 12, 12, 0.5);
+}
+
+button {
+    color: #3B4252;
+    background-color: #2E3440;
+    outline-style: none;
+    border: none;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    animation: gradient_f 20s ease-in infinite;
+}
+
+button:focus {
+    background-color: #D8DEE9;
+    background-size: 20%;
+}
+
+button:hover {
+    background-color: #B48EAD;
+    background-size: 25%;
+    border-radius: 75px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,0.0,.28,1.682);
+}
+
+button:hover#suspend {
+    border-radius: 75px 75px 0px 75px;
+    margin : 5px 0px 0px 15px;
+}
+
+button:hover#logout {
+    border-radius: 75px 0px 75px 75px;
+    margin : 0px 0px 5px 15px;
+}
+
+button:hover#shutdown {
+    border-radius: 75px 75px 75px 0px;
+    margin : 5px 15px 0px 0px;
+}
+
+button:hover#reboot {
+    border-radius: 0px 75px 75px 75px;
+    margin : 0px 15px 5px 0px;
+}
+
+#suspend {
+    background-image: image(url("/home/bluebyt/.config/wlogout/icons/suspend_white.png"), url("/usr/share/wlogout/icons/lock.png"));
+    border-radius: 75px 0px 0px 0px;
+    margin : 70px 0px 0px 75px;
+}
+
+#logout {
+    background-image: image(url("/home/bluebyt/.config/wlogout/icons/logout_white.png"), url("/usr/share/wlogout/icons/logout.png"));
+    border-radius: 0px 0px 0px 75px;
+    margin : 0px 0px 70px 75px;
+}
+
+#shutdown {
+    background-image: image(url("/home/bluebyt/.config/wlogout/icons/shutdown_white.png"), url("/usr/share/wlogout/icons/shutdown.png"));
+    border-radius: 0px 75px 0px 0px;
+    margin : 70px 75px 0px 0px;
+}
+
+#reboot {
+    background-image: image(url("/home/bluebyt/.config/wlogout/icons/reboot_white.png"), url("/usr/share/wlogout/icons/reboot.png"));
+    border-radius: 0px 0px 75px 0px;
+    margin : 0px 75px 70px 0px;
+}
