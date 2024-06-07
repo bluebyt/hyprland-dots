@@ -18,6 +18,9 @@ Tokyonight-Dark!
 - [Ulauncher](https://ulauncher.io/) Application launcher for Linux
 - [Xava](https://github.com/nikp123/xava#programming-opengl-shaders) Audio Visualizer
 - [ncmpcpp](https://github.com/ncmpcpp/ncmpcpp) Terminal Music player
+- [Ristretto](https://docs.xfce.org/apps/ristretto/start) The Ristretto Image Viewer is an application to view, and scroll through images
+- [imv](https://sr.ht/~exec64/imv/) is a command line image viewer intended for use with tiling window managers.
+- [Vesktop](https://github.com/Vencord/Vesktop) is a custom Discord desktop app
 - Caskaydiacove nerd font 
 
 
