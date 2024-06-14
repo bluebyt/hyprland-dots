@@ -21,7 +21,7 @@ Tokyonight-Dark!
 - [Ristretto](https://docs.xfce.org/apps/ristretto/start) The Ristretto Image Viewer is an application to view, and scroll through images
 - [imv](https://sr.ht/~exec64/imv/) is a command line image viewer intended for use with tiling window managers.
 - [Vesktop](https://github.com/Vencord/Vesktop) is a custom Discord desktop app
-- Screenshot[Swappy](https://github.com/jtheoof/swappy) with slurlp and grim
+- Screenshot [Swappy](https://github.com/jtheoof/swappy) with slurlp and grim
 - Caskaydiacove nerd font 
 
 
