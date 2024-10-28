@@ -1,0 +1,373 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: CaskaydiaCove Nerd Font;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+    /* background: rgba(76,86,106,0.8); */
+}
+
+/*
+window#waybar > box {
+    border-radius: 8px;
+    margin: 4px 8px 8px 8px;
+    background-color: rgba(59 ,66 ,82, 0.75);
+    box-shadow: 4px 4px 2px 1px rgba(10, 0, 20, 0.15);
+}
+*/
+
+#clock,
+#pulseaudio,
+#custom-launcher,
+#custom-pacmanAlt,
+#custom-wlogout,
+#custom-playerctl,
+#custom-airpods,
+#cpu,
+#memory,
+#disk,
+#cava,
+#language,
+#window,
+tooltip {
+    background: rgba(43, 48, 59, 0.7);
+    border-radius: 16px;
+}
+tooltip label {
+    color: #c0caf5;
+}
+
+#clock {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    color: #7dcfff;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+#disk {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #9ece6a;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+#memory {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #7dcfff;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+#cpu {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #ff9e64;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+#custom-pacmanAlt {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #c3e88d;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+#pulseaudio {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+    color: #bb9af7;
+    background: #1a1b26;
+    opacity: 0.8;
+}
+#pulseaudio.muted {
+    padding: 0px 25px 0 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+    color: #ff007c;
+    background: #1a1b26;
+    opacity: 0.8;
+}
+#cava {
+    border-radius: 16px;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px 10px 0px 10px;
+    background: #7dcfff;
+    color: #414868;
+    box-shadow: rgba(0, 0, 0, 0.116) 2px 2px 5px 2px;
+}
+
+/* @define-color text #b16186;
+#custom-cava {
+    color: @text;
+    font-family:
+   letter-spacing: 1px;
+} */
+
+#custom-wlogout {
+    padding: 5px 6px 5px 4px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 6px;
+    border-radius: 10px;
+    color: #ff757f;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+
+#language {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 3px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+    color: #9abdf5;
+    background: #1a1b26;
+    opacity: 0.8;
+}
+
+#custom-airpods {
+    padding: 5px 3px 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #ff757f;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+
+#temperature {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 3px;
+    border-radius: 10px;
+    color: #bb9af7;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+
+#window {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #bb9af7;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+
+window#waybar.chromium {
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+#tray {
+    color: rgb(84, 111, 175);
+    border-radius: 16px;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px 10px 0px 10px;
+    background: #7dcfff;
+    color: #414868;
+}
+/*
+#workspaces {
+    margin: 5px 5px;
+    padding: 8px 5px;
+    border-radius: 10px;
+    background: #414868;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 2px 2px;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    margin: 0px 3px;
+    border-radius: 15px;
+    color: #ffc777;
+    background-color: #7aa2f7;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #c0caf5;
+    background-color: #c0caf5;
+    border-radius: 16px;
+    min-width: 50px;
+    background-size: 400% 400%;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+    background-color: #c0caf5;
+    color: #c0caf5;
+    border-radius: 16px;
+    min-width: 50px;
+    background-size: 400% 400%;
+}
+
+#workspaces button.urgent {
+    border-radius: 16px;
+    background-color: #ff757f;
+}
+*/
+
+#workspaces {
+    background: #1a1b26;
+    padding: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: normal;
+    opacity: 0.8;
+    font-size: 16px;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+
+#workspaces button {
+    padding: 1px 7px;
+    margin: 0px 3px;
+    border-radius: 12px;
+    border: 0px;
+    color: #c0caf5;
+    background-color: #3b4261;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.7;
+}
+
+#workspaces button.active {
+    color: #9ece6a;
+    background: #545c7e;
+    border-radius: 19px;
+    min-width: 50px;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+#workspaces button:hover {
+    color: #ffffff;
+    background: #545c7e;
+    border-radius: 15px;
+    min-width: 50px;
+    opacity: 0.7;
+}
+#custom-launcher {
+    padding: 0px 5px 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: #9ece6a;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+#custom-playerctl {
+    padding: 0px 12px 0px 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    /*    color: #ffc777; */
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+
+#custom-playerlabel {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #9ece6a;
+    background: #1a1b26;
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 2px 5px 2px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient_f_nh {
+    0% {
+        background-position: 0% 200%;
+    }
+    100% {
+        background-position: 200% 200%;
+    }
+}
+
+@keyframes moveBeam {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
