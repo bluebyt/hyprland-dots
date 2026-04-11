@@ -1,0 +1,167 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: MesloLGS Nerd Font;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+}
+
+/* Base module style for that floating bubble look */
+#tray,
+#custom-wlogout,
+#clock,
+#language,
+#custom-airpod,
+#temperature,
+#disk,
+#memory,
+#cpu,
+#network,
+#custom-pacmanAlt,
+#pulseaudio,
+#bluetooth,
+#custom-wallchange,
+#window,
+#custom-recorder,
+#custom-playerctl,
+#custom-playerlabel,
+#custom-launcher,
+#cava,
+#custom-zscroll,
+#custom-waybar-scrolling-mpris {
+    padding: 0px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border: 2px solid #81a1c1; /* Nord9 Frost Blue */
+    background: #2e3440; /* Nord0 Polar Night */
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 4px 2px;
+}
+
+/* Individual Color Assignments */
+#clock {
+    color: #88c0d0;
+} /* Nord8 Ice */
+#language {
+    color: #b48ead;
+} /* Nord15 Aurora Pink */
+#custom-airpod {
+    color: #a3be8c;
+} /* Nord14 Aurora Green */
+#temperature {
+    color: #d08770;
+} /* Nord12 Aurora Orange */
+#temperature.critical {
+    background-color: #bf616a;
+    color: #eceff4;
+}
+
+#disk {
+    color: #a3be8c;
+}
+#memory {
+    color: #88c0d0;
+}
+#cpu {
+    color: #bf616a;
+} /* Nord11 Aurora Red */
+#network {
+    color: #81a1c1;
+} /* Nord9 Frost */
+#custom-pacmanAlt {
+    color: #ebcb8b;
+} /* Nord13 Aurora Yellow */
+#pulseaudio {
+    color: #b48ead;
+}
+#pulseaudio.muted {
+    color: #4c566a;
+}
+#bluetooth {
+    color: #81a1c1;
+}
+#window {
+    color: #88c0d0;
+}
+
+#custom-zscroll {
+    color: #ebcb8b;
+}
+
+/* Workspaces Section */
+#workspaces {
+    background: #2e3440;
+    padding: 5px 5px;
+    margin: 5px 10px 15px 10px;
+    border-radius: 20px;
+    border: 2px solid #81a1c1;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 5px 2px;
+}
+
+#workspaces button {
+    padding: 1px 7px;
+    margin: 0px 3px;
+    border-radius: 12px;
+    color: #d8dee9;
+    background-color: #3b4252;
+    min-width: 20px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button:hover {
+    color: #eceff4;
+    background: #4c566a;
+    /* This creates the horizontal expansion */
+    padding: 1px 20px;
+    min-width: 60px;
+    /* Keeps the transition smooth when moving the mouse away */
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #2e3440;
+    background: linear-gradient(120deg, #81a1c1 0%, #88c0d0 45%, #8fbcbb 100%);
+    border-radius: 19px;
+    min-width: 50px;
+    padding: 1px 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+#workspaces button:hover {
+    color: #eceff4;
+    background: #4c566a;
+    padding: 1px 15px;
+    min-width: 20px;
+}
+
+/* Taskbar */
+#taskbar {
+    background-image: linear-gradient(
+        45deg,
+        #5e81ac 0%,
+        #81a1c1 52%,
+        #5e81ac 90%
+    );
+    border-radius: 8px;
+}
+
+/* Tooltip */
+tooltip {
+    border-radius: 10px;
+    background-color: #3b4252;
+    border: 1px solid #81a1c1;
+}
+
+tooltip label {
+    color: #d8dee9;
+}
