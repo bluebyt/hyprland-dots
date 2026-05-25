@@ -1,0 +1,261 @@
+let {
+    $tray = { type = "tray" }
+
+    $wlogout = {
+        type = "custom"
+        bar = [
+            {
+                type = "button"
+                name = "wlogout"
+                class = "wlogout"
+                label = ""
+                on_click = "!~/.config/ironbar/scripts/wlogout"
+            }
+        ]
+    }
+
+   $clock = {
+       type = "custom"
+       bar = [
+           {
+               type = "button"
+               name = "clock"
+               class = "clock"
+               mode = "watch"
+               label = "{{100:~/.config/ironbar/scripts/clock_format.sh}}"
+               on_click = "!~/.config/ironbar/scripts/clock_format.sh --toggle"
+           }
+       ]
+   }
+   
+      $clock2 = {
+          type = "custom"
+          bar = [
+          {
+            type = "box"
+            class = "clock-container"
+            orientation = "vertical"
+            valign = "center"
+            widgets = [
+                {
+                    type = "label"
+                    class = "clock-time"
+                    label = " {{1000:date +'%H:%M:%S'}}"
+                }
+                {
+                    type = "label"
+                    class = "clock-date"
+                    label = "{{60000:date +'%A, %B %d'}}"
+                }
+            ]
+        }
+    ]
+} 
+   $volume = {
+      type = "volume"
+      format = "{icon} {percentage}%"
+      max_volume = 100
+      icons.volume_high = " "
+      icons.volume_medium = ""
+      icons.volume_low = ""
+      icons.muted = "󰝟"
+      truncate.mode = "end"
+      truncate.length = 10
+      truncate.max_length = 40
+      on_scroll_down = "wpctl set-volume @DEFAULT_SINK@ 2%-"
+      on_scroll_up = "wpctl set-volume @DEFAULT_SINK@ 2%+"
+      tooltip = "{{~/.config/ironbar/scripts/volume}}%"
+    }
+
+   $pacman = {
+      type = "custom"
+       bar = [
+          {
+               type = "label"
+               name = "pacman"
+               class = "pacman"
+               label = "󰮯 {{2000:~/.config/scripts/package-updates.sh}}"
+           }
+       ]
+   }
+$SysDisk = {
+      type = "sys_info"
+      class = "sys-disk"
+      interval.disks = 300
+      format = [ " {disk_percent@/}%" ]
+      tooltip = "{{~/.config/ironbar/scripts/disk_usage.sh}}"
+   }
+    $SysCpu = {
+      type = "sys_info"
+      class = "sys-cpu"
+      interval.cpu = 1
+      format = [ " {cpu_percent}%" ]
+      tooltip = "CPU usage"
+    }
+    $cpu = {
+      type = "custom"
+       bar = [
+          {
+               type = "label"
+               name = "cpu"
+               class = "cpu"
+               label = " {{1000:~/.config/scripts/cpu}}"
+               on_click_left = "~/.config/scripts/toggle-btm.sh"
+               tooltip = "{{python3 ~/.config/ironbar/scripts/cpu-tooltip.py --tooltip}}"
+           }
+       ]
+   }
+    $SysTemp = {
+      type = "sys_info"
+      class = "sys-temp"
+      interval.temps = 3
+      format = [ " {temp_c:coretemp-Package-id-0}°C" ]
+      tooltip = "{{python3 ~/.config/ironbar/scripts/cpu_temp.py --tooltip}}"
+     }
+
+    $SysMem = {
+       type = "sys_info"
+       class = "sys-mem"
+       interval.memory = 30
+       format = [ " {memory_percent}%" ]
+       tooltip = "{{~/.config/ironbar/scripts/mem_tooltip.py --tooltip}}"
+    }
+    $keyboard = {
+            type = "keyboard"
+            show_scroll = false
+            icons.layout_map.'English (intl., with AltGr dead keys)' = " en"
+            icons.layout_map.'French (Canada)' = " fr"
+}
+      $airpod = {
+       type = "custom"
+       bar = [
+           {
+               type = "button"
+               name = "airpod"
+               class = "airpod"
+               mode = "watch"
+               label = "{{2000:~/.config/scripts/airpod.sh --status}}"
+               on_click = "!~/.config/scripts/airpod.sh --toggle"
+           }
+       ]
+   }
+    $workspace = {
+        type = "workspaces"
+        sort = "index"
+        on_scroll_up = "~/.config/ironbar/scripts/workspace-minus.sh"
+        on_scroll_down = "~/.config/ironbar/scripts/workspace-plus.sh"
+    }
+
+
+    $weather = {
+        name = "weather"
+        type = "script"
+        mode = "poll"
+        interval = 600000
+        cmd = "~/.config/ironbar/scripts/weather"
+   }
+
+
+
+     $cava = {
+        transition_type = "slide_end"
+        transition_duration = 750
+        name = "cava"
+        type = "script"
+        mode = "watch"
+        cmd = "~/.config/ironbar/scripts/cava"
+   }
+
+    $focused = {
+      type = "focused"
+      show_icon = false
+      show_title = true
+      icon_size = 24
+      icon_theme = "Tela-circle-nord"
+
+      truncate.mode = "end"
+      truncate.max_length = 21
+    }
+
+    $music = {
+      type = "music"
+      player_type = "mpd"
+      format = "{title}/{artist}"
+      truncate = "end"
+      // truncate.length = 30
+      // truncate.max_length = 100
+      icons.play = " "
+      icons.pause = " "
+      icons.prev = ""
+      icons.next = ""
+      music_dir = "/home/bluebyt/Music"
+    }
+
+  $zscroll = {
+      type = "custom"
+       bar = [
+          {
+               type = "label"
+               name = "zscroll"
+               class = "zscroll"
+               label = "{{watch:2000:~/.config/scripts/zscroll.sh}}"
+               on_click_left = "mpc toggle"
+               on_scroll_down = "mpc next"
+               on_scroll_up = "mpc prev"
+           }
+       ]
+   }
+
+$workspacename = {
+    type = "custom"
+    bar = [
+        {
+            type = "box"
+            class = "workspace-container"
+            orientation = "vertical"
+            valign = "center"
+            widgets = [
+                {
+                    type = "label"
+                    class = "workspace-name"
+                    label = "{{watch:200:~/.config/ironbar/scripts/hypr_workspace.py}}"
+                }
+                {
+                    type = "label"
+                    class = "workspace-number"
+                    label = "Desktop {{watch:200:~/.config/ironbar/scripts/hypr_work_number.py}}"
+                }
+            ]
+        }
+    ]
+}
+
+   $SystemBox = {
+        type = "custom"
+        bar = [
+            {
+                type = "box"
+                name = "system-container"
+                class = "system-container"
+                widgets = [
+                    $airpod
+                    $keyboard
+                    $pacman
+                    $volume
+                ]
+            }
+        ]
+    }
+
+
+    $start = [ $zscroll $workspacename $focused ]
+    $center = [ $workspace]
+    $end = [ $airpod $keyboard $SysMem $SysTemp $cpu $SysDisk $pacman $clock2 $wlogout ]
+}
+in {
+        icon_theme = "Tela-circle-nord"
+        position = "top"
+        start = $start
+        center = $center
+        end = $end
+}
