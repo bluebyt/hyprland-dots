@@ -30,8 +30,8 @@ Tokyonight-Dark!
 - [Install Archlinux Gnome desktop](https://www.youtube.com/watch?v=3ndsDxlkTrw)
 - [Install hyprland](https://hyprland.org/)
 
-## Configuration
-- Edit /home/bluebyt/.config/hypr/hyprland.conf
+## Configuration (Lua config!)
+- Edit /home/bluebyt/.config/hypr/hyprland.lua
 
 
 ## Running
